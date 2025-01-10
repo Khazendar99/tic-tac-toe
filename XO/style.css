@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(44, 44, 44);
+}
+.xo {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(156, 236, 210);
+  border-radius: 10px;
+  font-size: 3rem;
+  padding: 10px 40px;
+}
+.scores .xScore {
+  margin-right: 25px;
+}
+#restartScore {
+  padding: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.main {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main div {
+  width: calc(33% - 6px);
+  height: calc(33% - 5px);
+  background-color: rgb(187, 187, 187);
+}
+@media (max-width: 600px) {
+  .main {
+    width: 80vw;
+  }
+}
